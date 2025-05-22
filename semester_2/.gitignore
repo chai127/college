@@ -1,0 +1,39 @@
+# --- Compiled object files ---
+*.o
+*.obj
+
+# --- Compiled dynamic libraries ---
+*.so
+*.dll
+*.dylib
+
+# --- Executables ---
+*.exe
+*.out
+*.app
+
+# --- VSCode settings ---
+.vscode/
+
+# --- Backup files ---
+*~
+*.bak
+*.tmp
+
+# --- OS-specific files ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- CMake files (if using CMake) ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# --- Other ---
+*.log

@@ -24,7 +24,12 @@ int main(){
     printf("\npyramid of numbers \n");
      for(int i = 0; i < n; i++){
         for(int j = 0; j <= i ; j++){
-            printf("%d",i+1);
+            if(i < 9)
+            {printf("%d ",i+1);
+            }
+            else{
+                printf("%d",i+1);
+            }
         }
         printf("\n");
     }

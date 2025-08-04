@@ -35,19 +35,18 @@ void free_list(node *head) {
     cout << "\nList is freed\n";
 }
 
-node* search_list(node *head, int key) {
-    bool found = false;
-    while(head != nullptr) {
-        if(head->data == key){
-            found = true;
-            return head;
-        }
-        else{
-            head = head->next;
-        }
-    }
-    return nullptr;
+void switch_node() {
+    
 }
+
+void sort_list(node *head) {
+    
+    
+}
+// first key is sorted
+// compare second with first if second smaller => swap
+// key is the second node now
+// now the third one is compared with second and first too
 
 
 int main() {
@@ -64,8 +63,7 @@ int main() {
     link_node(n4,n5);
 
     print_list(n1);
-    node* data = search_list(n1, 87);
-    cout<<"Found: "<< data->data;
+
     free_list(n1);
 
 

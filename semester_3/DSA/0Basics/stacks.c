@@ -85,8 +85,6 @@ int main() {
     initStack(stack1);
     push(stack1, 22);
     push(stack1, 33);
-    push(stack1, 993);
-    push(stack1, 73);
     push(stack1, 43);
     push(stack1, 22);
     pop(stack1);
